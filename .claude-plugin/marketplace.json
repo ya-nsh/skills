@@ -1,0 +1,18 @@
+{
+  "name": "ya-nsh-skills",
+  "owner": {
+    "name": "Deva"
+  },
+  "metadata": {
+    "description": "Claude Code skills from ya-nsh"
+  },
+  "plugins": [
+    {
+      "name": "unslop-ui",
+      "description": "Strip the AI-generated look out of a UI in one pass, so it looks like it was designed for this product instead of averaged from every other one.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/unslop-ui"]
+    }
+  ]
+}
